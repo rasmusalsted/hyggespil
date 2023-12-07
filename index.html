@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Whack-a-mol</h1>
+    <h2 class="count">
+        TIME: <span id="time-count">20</span>
+        SCORE: <span id="score-count">0</span>
+    </h2>
+
+    <div class="container">
+        <div class="item">
+            <div class="tube">
+                <img src="img/tube.svg" draggable="false" alt="">
+            </div>
+            <div class="plant plant-hide">
+                <img class="plant-clicked" draggable="false" src="img/mol.png" alt="">
+            </div> 
+        </div> <!-- item end -->
+        <div class="item">
+            <div class="tube">
+                <img src="img/tube.svg" draggable="false" alt="">
+            </div>
+            <div class="plant plant-hide">
+                <img class="plant-clicked" draggable="false" src="img/mol.png" alt="">
+            </div> 
+        </div> <!-- item end -->
+        <div class="item">
+            <div class="tube">
+                <img src="img/tube.svg" draggable="false" alt="">
+            </div>
+            <div class="plant plant-hide">
+                <img class="plant-clicked" draggable="false" src="img/mol.png" alt="">
+            </div> 
+        </div> <!-- item end -->
+        <div class="item">
+            <div class="tube">
+                <img src="img/tube.svg" draggable="false" alt="">
+            </div>
+            <div class="plant plant-hide">
+                <img class="plant-clicked" src="img/mol.png" draggable="false" alt="">
+            </div> 
+        </div> <!-- item end -->
+    </div><!-- container end -->
+    <div class="resultbox">
+        <h3 class="resultbox__heading">flot!!!</h3>
+        <p class="resultbox__text">you wacked 10 evil plants!</p>
+        <button onclick="window.location.reload();" class="btnagain">Prøv igen?!</button >
+        
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
